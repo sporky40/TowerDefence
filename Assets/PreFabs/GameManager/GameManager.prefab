@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5799987315103467431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3226101646731933622}
+  - component: {fileID: 6559182770631823476}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3226101646731933622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799987315103467431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2265329, y: 0.36810195, z: 0.058711927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6559182770631823476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5799987315103467431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6adee2b9acee4aa2d12bab39c7ab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyList: []
+  windMillList: []
+  wheelThree: {fileID: 5168684882028016825, guid: c816b7cea7e89b245bf358e32e109711, type: 3}
+  wheelTwo: {fileID: 1101901300514272410, guid: 858aedf9b7b4afa44a14781fd636599b, type: 3}
+  isWheelThreeActive: 0
+  isWeelTwoActive: 0
+  arrow: {fileID: 3222481157082181328, guid: 607eab322410a8548b382c610c761715, type: 3}
+  spells:
+  - {fileID: 272818158406890057, guid: f8e42c34d6e220d49b9112a4e0bdbb8b, type: 3}
+  - {fileID: 348767535022402933, guid: 5f58578cb74244f4abfa616ff708fbb0, type: 3}
+  - {fileID: 4351266354414175210, guid: b3b69cf1493ea694fb7eac2a92062532, type: 3}
+  towerTypeListSO: {fileID: 11400000, guid: 2d9dd623aa9a59e4e8df4acc27df9f24, type: 2}

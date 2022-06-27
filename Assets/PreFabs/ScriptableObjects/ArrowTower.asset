@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a01fd6c7c31915408322724fa60667f, type: 3}
+  m_Name: ArrowTower
+  m_EditorClassIdentifier: 
+  towerLvlList:
+  - {fileID: 1844106909151980269, guid: 5fc7286a9f420ea4b8610036e83607f2, type: 3}
+  - {fileID: 264688660475961420, guid: d6a6efef36a8b244f92417fff1970ce1, type: 3}
+  price: 1900000032000000
+  fireRate:
+  - 0.5
+  - 0.5
+  spriteList:
+  - {fileID: 21300000, guid: db820209052ead54abe731d1d1b70651, type: 3}
+  - {fileID: 21300000, guid: 455f1fc36e41ef74f963614880fe8d2b, type: 3}
+  damage:
+  - 50
+  - 100
